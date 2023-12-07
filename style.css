@@ -1,0 +1,42 @@
+.parent{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+.form{
+    /* border: 1px solid gray; */
+    border-radius: 5%;
+    width: 30%;
+    height: 55%;
+    box-shadow: 5vh 5vh 8vh rgba(0, 0, 0, 0.141), inset -5vh -5vh 8vh rgba(234, 230, 230, 0.059);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 22px;
+    justify-content: center;
+    transition: 2s;
+}
+input{
+    width: 75%;
+    height: 10%;
+}
+#creat{
+    position: relative;
+    left: 7vh;
+    width: 100%;
+}
+#blue{
+    background-color: rgb(72, 72, 199);
+    color: white;
+}
+#green{
+    background-color: rgb(37, 175, 37);
+    color: white;
+}
+/* .form:hover{
+    box-shadow: 4px 4px 12px black;
+    border: 3px solid gray;
+} */
