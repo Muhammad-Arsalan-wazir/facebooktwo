@@ -1,0 +1,244 @@
+*{
+    background-color: rgb(246, 244, 241);
+}
+.parent{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 4vh;
+    height: 25vh;
+}
+/* nav section */
+
+.parent .nav{
+    border: 1px solid rgb(224, 221, 221);
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 7%;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3vh;
+    width: 25%;
+}
+.logo input{
+    height: 5vh;
+    width: 35vh; 
+    border: 1px solid rgb(225, 221, 221);
+    border-radius: 5%;
+    background-color: rgb(249, 246, 246);
+}
+.icon{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 15vh;
+    transform: translate(20vh);
+}
+.nav .icontwo {
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+}
+.icontwo{
+    background-color: rgb(246, 244, 241);
+    display: flex;
+    flex-direction: row;
+    transform: translate(50vh);
+}
+
+/* 1: first section css */
+.first{
+    position: fixed;
+    top: 13%;
+    border: 1px solid rgb(227, 221, 221);
+    width: 22%;
+    height: 95vh;
+    background-color: white;
+}
+.first h3{
+    background-color: white;
+}
+.parent .first{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 7vh;
+}
+.first .starticons {
+           background-color: rgb(255, 255, 255);
+           display: flex;
+           flex-direction: column;
+           gap: 20%;
+}
+.first .starticons p{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8%;
+    font-size: 120%;
+}
+.starticons p img{
+    background-color: white;
+}
+/* 3: third section css */
+.third{
+    position: fixed;
+    top: 13%;
+    transform: translate(165vh);
+    border: 1px solid rgb(227, 221, 221);
+    width: 20%;
+    height: 95vh;
+    background-color: white;
+}
+.third h3{
+    background-color: white;
+}
+.parent .third{
+    display: flex;
+    flex-direction: column;
+    gap: 1%;
+}
+.third .people{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+.people p img{
+    background-color: white;
+    border-radius: 50%;
+}
+.third .people p{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+}
+ /* 2: second section css */
+
+/* parentpost */
+.parent .parentpost{
+    position: relative;
+    top: 45%;
+    transform: translate(55vh);
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 5vh;
+}
+
+/* post no 1  */
+.parent .secondp1{
+    border: 1px solid rgb(251, 247, 247);
+    width: 100%;
+    height: 95vh;
+    background-color: white;
+}
+.secondp1 .contentp1{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    gap: 3vh;
+    align-items: center;
+}
+#descriptionp1{
+    background-color: white;
+}
+#likesp1{
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+#reactionp1{
+    display: flex;
+    flex-direction: row;
+    gap: 20%;
+    justify-content: center;
+    background-color: white;
+}
+#reactionp1 p{
+    display: flex;
+    align-items: center;
+    gap: 10%;
+    background-color: white;
+}
+#reactionp1 p img{
+    background-color: white;
+}
+/* post no 2 */
+
+.parent .secondp2{
+    width: 100%;
+    height: 95vh;
+    background-color: white;
+}
+.secondp2 .contentp2{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    gap: 3vh;
+    align-items: center;
+}
+#descriptionp2{
+    background-color: white;
+}
+/* post no 3 */
+
+.parent .secondp3{
+    width: 100%;
+    height: 95vh;
+    background-color: white;
+}
+.secondp3 .contentp3{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    gap: 3vh;
+    align-items: center;
+}
+#descriptionp3{
+    background-color: white;
+}
+/* post no 4 */
+
+.parent .secondp4{
+    width: 100%;
+    height: 95vh;
+    background-color: white;
+}
+.secondp4 .contentp4{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    gap: 3vh;
+    align-items: center;
+}
+#descriptionp4{
+    background-color: white;
+}
+/* post no 5 */
+
+.parent .secondp5{
+    width: 100%;
+    height: 95vh;
+    background-color: white;
+}
+.secondp5 .contentp5{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    gap: 3vh;
+    align-items: center;
+}
+#descriptionp5{
+    background-color: white;
+}
+
+
